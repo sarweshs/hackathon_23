@@ -1,2 +1,2 @@
 def hamfunc():
-  print("Upgrade from baloney")
+  return "Upgrade from baloney"
