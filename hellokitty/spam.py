@@ -1,2 +1,2 @@
 def spamfunc():
-  print("Spammity spam")
+  return "Spammity spam"
