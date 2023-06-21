@@ -6,10 +6,10 @@ query_params = {
     "page": 1
 }
 
-def callMeAgain(query_params):
+def callMe(query_params):
 	response = requests.get(f"{BASE_URL}/users", params=query_params)
 	print(response.json())
 	return response
 
-callMeAgain(query_params)
+#callMe(query_params)
 print("calling rest_caller_2")
