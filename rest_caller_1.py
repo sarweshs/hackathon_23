@@ -9,7 +9,7 @@ query_params = {
 def callMe(query_params):
 	response = requests.get(f"{BASE_URL}/products", params=query_params)
 	print(response.json())
-	return response
+	return response.json()
 
 #callMe(query_params)
 print("calling rest_caller_1")
